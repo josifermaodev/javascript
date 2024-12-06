@@ -1,10 +1,9 @@
 const leia = require("readline-sync");
 
 let numeros = new Array(10);
-let temp;
 let soma = 0;
 
-// Lê os números e armazena no array 'numeros'.
+// Lê os números digitados e armazena no array 'numeros'.
 for  (let x = 0; x < 10; x++){
     numeros[x] = leia.questionInt(`Digite o ${x + 1}(o) numero: `);
     // console.log(numeros[x])
